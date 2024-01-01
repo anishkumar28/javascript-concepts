@@ -1,1 +1,1 @@
-# Timw, tide and JavaScript waits for none
+# Time, tide and JavaScript waits for none
