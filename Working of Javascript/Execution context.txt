@@ -1,0 +1,15 @@
+Execution contenxt is like a big box, it has two components in it - the memory component and the code component.
+
+1. Memory component - This is the place where all the variables are stored in Key-Value pairs, also functions are stored here. It is also known as Variable Environment.
+
+2. Code component - This is the place where the code is executed one line at a time. It is also known as Thread of Execution, it is just like a thread in which the whole code is executed one line at a time.
+
+
+
+ " JavaScript is a synchronous single-threaded language. "
+
+
+ There are two phases in the working of JavaScript:- 
+  
+  1. Memory Creation Phase
+  2. Code Execution Phase 
