@@ -3,3 +3,13 @@
 
 
  " Call stack maintains the order of execution of execution context. "
+
+
+There are many names of Call Stack in Javasript"-
+
+ 1. Call Stack
+ 2. Execution Context Stack
+ 3. Program Stack
+ 4. Control Stack
+ 5. Runtime Stack
+ 6. Machine Stack
