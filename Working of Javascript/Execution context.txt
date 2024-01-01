@@ -1,4 +1,8 @@
-Execution contenxt is like a big box, it has two components in it - the memory component and the code component.
+
+        ***Everything in JavaScript happens inside an Execution Context***
+
+
+Execution Context is like a big box, it has two components in it - the memory component and the code component.
 
 1. Memory component - This is the place where all the variables are stored in Key-Value pairs, also functions are stored here. It is also known as Variable Environment.
 
