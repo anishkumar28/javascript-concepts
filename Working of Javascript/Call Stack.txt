@@ -1,0 +1,5 @@
+
+ Call Stack is a stack, it contains the execution context in its bottom, everytime when a new function is invoked the execution context is pushed in the stack and when it's completed it got popped out.
+
+
+ " Call stack maintains the order of execution of execution context. "
