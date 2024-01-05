@@ -47,11 +47,18 @@ console.log(second); // output - 8
 
 
 
-/* Constants are those identifiers which can be change throughout the Javascript program.
+/* Constants are those identifiers which cannot be change throughout the Javascript program.
 const must be initialized at the time of declarartion.
 const could never be updated or re-declared. */
 
 console.log("const variable:")
 const third = 9;
+console.log(third);
+
+{
+    const third = 5;
+    console.log(third); // output - 5
+}
+
 console.log(third);
  
