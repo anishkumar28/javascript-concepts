@@ -47,6 +47,11 @@ var myFuction = function(){
 }
 console.log(myFuction);// return function, also known as Object function
 
+// Date
+
+let dateToday = new Date();
+console.log(dateToday)// return date
+
 
 
 
