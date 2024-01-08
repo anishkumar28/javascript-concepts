@@ -8,14 +8,45 @@
 
 
 var age  = 12; // number
+const scoreValue = 120.2 // number
 
-let name = "Om"; // string
+const name = "Om"; // string
 
-let isValue = false; // boolean
+let isLoggedIn = false; // boolean
 
 var decision = null; // null
+console.log(typeof decision); // 
 
 let varName = undefined; // undefined
+let userEmail; // undefined
+
+const id = Symbol('123')// symbol
+const anotherId = Symbol('123')// symbol
+console.log(id === anotherId);
+
+// bigInt
+let bigNumber =  24581196729482854n; 
+
+
+
+//All non-primitive data types gives Object as its type
+// array
+const heros = ["shakimaan", "naagraj", "doga"]; 
+console.log(heros[0]);
+
+// Objects
+let myObj = {  
+    name: "Kartik",
+    age: 22,
+    height: 5.3,
+}
+
+// Function
+var myFuction = function(){
+   console.log("Namaste JavaScript");
+}
+console.log(myFuction);// return function, also known as Object function
+
 
 
 
