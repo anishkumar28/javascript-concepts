@@ -5,7 +5,7 @@
 //Promises is used for asynchronous programming, promise is just a object which holds some data-value in it.
 // You can attach a Normal function or a Callback function using promises.
 
-
+const cart = ["jeans","shirt","hat"];
 const myPromise = createOrder(cart);// myPromise is an promise object
 
 myPromise.then(function(orderId) {
@@ -38,6 +38,44 @@ createOrder(cart)
 
 
 
+
+
+
+// Creating a Promise
+const promise = sortOrder(cart);
+console.log(promise);
+
+promise.then(function(orderId){
+    console.log(orderId);
+})
+.catch(function (err){// handling error in promises
+    console.log(err.message);
+});
+
+
+function sortOrder(){
+
+    const pr = new Promise(function(resolve,reject){// implemented promise function
+        // validate cart
+        if(!validateCart(cart)){
+            const err = new Error("Cart is not valid");
+            reject(err);
+        }
+        //logic of createOrder
+        const orderId = "52416";
+        if(orderId){
+            setTimeout(function (){
+                resolve(orderId);
+            },5000);
+        }
+    });
+
+    return pr;
+}
+
+function validateCart(){
+    return true;
+}
 
 
 
