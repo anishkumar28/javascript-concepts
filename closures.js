@@ -27,4 +27,6 @@ two();
 
 
 
+
+
 //In closures, Functions when they are returned from another function they still maintains their lexical scope, they remember where they were actually present even if the function is no longer present(functions with their lexical scope are stored).  
